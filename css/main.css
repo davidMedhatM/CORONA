@@ -1,0 +1,413 @@
+/* body{
+    background-color: tomato;
+    margin: 0px;
+    padding: 0px;
+} */
+
+
+/* nav */
+.navbar{
+    background-color: transparent;
+}
+.navbar-brand{
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    color: blueviolet;
+}
+.navbar-brand i{
+    color: red;
+}
+
+.nav-item .nav-link{
+    color: rgb(183, 74, 216);
+}
+.nav-item .nav-link:hover{
+    color: rgb(68, 11, 117);
+    font-weight: 700;
+
+}
+
+.nav-item .btn{
+    border-radius: 20px;
+    color: red;
+}
+.navbar-toggler{
+    color: blueviolet;
+}
+
+.colorlink{
+    color: rgb(34, 6, 56);
+    font-weight: 700;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+@media(max-width :600px){
+    .navbar{
+        display: flex;
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+    }
+    #collapsibleNavbar{
+        background-color: rgba(128, 24, 226, 0.493);
+    }
+    .navbar-nav{
+        width: 70%;
+        background-color: rgb(46, 50, 51);
+        height: 100vh;
+    }
+    .navbar-nav .nav-item a{
+        text-align: center;
+    }
+
+}
+
+
+
+/* .........................................................background covid */
+.background{
+    background-image: url(../images/bgv.jpg);
+    background-size: 100% 100%;
+    padding: 30px 0px;
+}
+.paddingtoundernav{
+    padding-top: 100px;
+}
+.background .text-head {
+    display: flex;
+}
+.background .text-head .h2{
+    font-weight: 900;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+/* ABOUT THE DISEASE */
+#AboutCorona .col-md-8 h1{
+    color: dimgrey;
+    font-weight: 900;
+}
+
+#AboutCorona .border{
+    border: gray;
+    border-radius: 5px;
+    box-shadow: gray 5px 5px 20px;
+}
+
+#AboutCorona .border div{
+    margin: 5px 0px;
+    height: 1px;
+    width: 100%;
+    background-color: gray;
+}
+
+
+
+/* CORONAVIRUS IS SPREAD */
+#CORONAVIRUSISSPREAD{
+    background-color: rgb(220, 240, 250);
+}
+
+#CORONAVIRUSISSPREAD h3{
+    color: dimgrey;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+#CORONAVIRUSISSPREAD .col-md-4 img{
+    border-bottom: 3px solid rgba(90, 90, 236, 0.897);   
+    box-shadow: 0px 5px 15px rgba(90, 90, 236, 0.897); 
+}
+
+#CORONAVIRUSISSPREAD .col-md-4 div{
+    background-color: white;
+    padding: 10px;
+}
+#CORONAVIRUSISSPREAD button{
+    border-radius: 25px;
+
+}
+
+
+
+
+/*Symptoms  */
+#Symptoms h3{
+    color: dimgrey;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+#Symptoms .col-md-4 img{
+    border-radius: 50%;
+    width: 25%;
+    margin-left: 60%;
+}
+#Symptoms .col-md-4 div{
+    padding: 10px;
+}
+#Symptoms .col-md-4 span{
+    font-weight: 800;
+}
+
+
+
+/* protect alert to tell ypu stay at home */
+.alertprotect button{
+    border-radius: 25px;
+}
+.alertprotect .col-md-8 i{
+    font-size: 50px;
+    color: red;
+}
+.alertprotect .col-md-8 span{
+    font-weight: 900;
+    color: blue;
+}
+
+
+
+
+
+/* Prevention */
+
+#Prevention{
+    background-color: rgb(220, 240, 250);
+}
+
+#Prevention .round{
+    border-radius: 25px;
+}
+#Prevention .col-md-3 img{
+    border-radius: 50%;
+    width: 50%;
+    margin: 20px 0px;
+}
+#Prevention h3{
+    color: dimgrey;
+    font-weight: 900;
+    font-size: 35px;
+}
+#Prevention h6 i{
+    color: green;
+    font-weight: 800;
+    font-size: 20px;
+}
+#Prevention .col-md-7 span{
+    font-weight: 700;
+}
+
+#Prevention .changecolorinprevention{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    border: 4px whitesmoke inset;
+}
+
+#Prevention .col-md-4 img{
+    border-radius: 50%;
+    width: 60%;
+    margin: 20px 0px;
+}
+
+
+
+
+
+
+
+
+/* Treatment */
+#Treatment{
+    background-image: url(../images/backcorona.png);
+    background-size: 100% 100%;
+    color: white;
+}
+#Treatment .col-md-7 h4{
+color: cyan;
+}
+
+#Treatment .col-md-5{
+    background-color: rgba(0, 0, 139, 0.863);
+    padding: 50px 25px;
+}
+
+
+
+
+
+
+
+/* O’S & DON’TS */
+#doanddont{
+    background-color: rgb(220, 240, 250);
+ 
+}
+#doanddont h3{
+    color: dimgrey;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+
+#doanddont .dont .col-md-4{
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+
+}
+#doanddont .dont .col-md-4 img{
+    border: 2px solid #2a81ea;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 50%;
+
+}
+#doanddont .dont .col-md-4 i{
+    position: absolute;
+    background-color: white;
+    color: red;
+    top: 0%;
+    left: 0%;
+    font-size: 20px;
+}
+
+/* #doanddont .dooo .row, #doanddont .dont .row{
+height: 50px !important;
+} */
+
+#doanddont .dooo img{
+    border: 2px solid #2a81ea;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 50%;
+}
+
+#doanddont .dooo .col-3{
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+}
+
+#doanddont .dooo .col-3 i{
+    position: absolute;
+    background-color: white;
+    color: green;
+    font-size: 20px;
+    right: 50%;
+}
+
+
+
+           /* FAQ
+FREQUENTLY ASKED QUESTION
+COMMON QUESTION & ANSWER */
+
+#FAQ h3{
+    color: dimgrey;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+#FAQ ul li a{
+    text-decoration: none;
+}
+
+#FAQ .clickedul{
+    border: 1px solid blue;
+    font-weight: 700;
+    color: blue;
+}
+
+#FAQ .hidecoll button{
+    text-align: left !important;
+}
+
+
+/* RECENT FROM BLOG
+LATEST UPDATE */
+#News{
+    background-color: rgb(220, 240, 250);
+}
+
+#News .backimg{
+    background-color: gray;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px rgb(105, 105, 105);
+}
+
+
+
+/* foooooooooooooooooooooooooooooter */
+
+#footer{
+    background-image: url(../images/backcorona.png);
+    background-size: 100% 100%;
+    color: rgb(197, 196, 196);
+}
+#footer .footerback{
+    background-color: rgba(0, 0, 34, 0.726);
+}
+
+#footer h1,#footer h4 {
+    color: white;
+}
+
+#footer .col-md-4 h1 i{
+    color: red;
+}
+
+#footer  h6 a{
+    color: rgb(197, 196, 196);
+    text-decoration: none;
+}
+#footer hr{
+    border: 1px solid blueviolet;
+}
+
+#footer .col-md-12 h6 span{
+    color: white;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* to scroll up */
+#scrollUp {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(177, 177, 177);
+    color:blueviolet ;
+    border-radius: 50%;
+    border: 2px solid blueviolet;
+    font-size: 30px;
+}
+
+/* to make smooth */
+html{
+    scroll-behavior: smooth;
+}
