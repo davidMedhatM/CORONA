@@ -17,7 +17,16 @@
 }
 .navbar-brand i{
     color: red;
+    animation: animate-preloader 5s linear infinite;
 }
+@keyframes animate-preloader {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
 
 .nav-item .nav-link{
     color: rgb(183, 74, 216);
@@ -87,6 +96,7 @@
 
 
 /* ABOUT THE DISEASE */
+
 #AboutCorona .col-md-8 h1{
     color: dimgrey;
     font-weight: 900;
@@ -358,6 +368,7 @@ LATEST UPDATE */
 
 #footer .col-md-4 h1 i{
     color: red;
+    animation: animate-preloader 5s linear infinite;
 }
 
 #footer  h6 a{
